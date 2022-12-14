@@ -225,7 +225,7 @@ class DumpFileSource():
         if box.is_tri: 
             string += ' '.join(tri_order)
         
-        string += ' ' + box.get_BC_string() + '\n'
+        string += ' ' + box._get_BC_string() + '\n'
         
         for axis, tri in zip(range(0, 3), box.tri):
             l = list(box.bounds[axis, 0:2]) 
@@ -557,12 +557,3 @@ class DumpFileSource():
                 custom_snapshot_items[item_name] = type(self).parse_custom_data(lines)
                 
                 
-"""
-class DumpTempfileSource(DumpFileSource):
-    def __init__(self, string):
-        file = tempfile.TemporaryFile("r+")
-        file.write(string)
-        file.seek(0) # Return to beginning
-        
-        super().__init__(file)
-"""
