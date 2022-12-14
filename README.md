@@ -18,6 +18,7 @@ This package automates common data analysis tasks for the molecular dynamics sof
 - 'example.log': Example log file to test notebook functionality on
 - 'example.dump': Example dump file to test notebook functionality on
 - 'example.ipynb': Example notebook
+- 'environment.yml': Environment containing associated packages
 - 'lammps_utility': lammps_utility python package
  	- 'thermo_reader.py': Package for extracting information from .log file and plotting to Plotly
  	- 'data_gui.py': Program for generating GUI with plotting features
