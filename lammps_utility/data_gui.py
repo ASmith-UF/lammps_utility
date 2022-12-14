@@ -55,8 +55,8 @@ def launch():
     # Define Button Parameters
     bFont = font.Font(family='MS Sans Serif', size = math.floor(window_W/50)) # Button Font
     bWidth = math.floor(window_W/70) # Button Width
-    padding_x = math.floor(window_W)/25 # Widget Padding Value (x-direction)
-    padding_y = math.floor(window_H)/10 # Widget Padding Value (y-direction)
+    padding_x = math.floor(window_W)/75 # Widget Padding Value (x-direction)
+    padding_y = math.floor(window_H)/35 # Widget Padding Value (y-direction)
     
     # Upload Original Background Image for Resizing
     BackgroundImage = PIL.Image.open(module_path/"GUI_figures"/"background.png") # Open Background File
