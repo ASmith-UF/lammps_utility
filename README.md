@@ -15,9 +15,7 @@ Python For Engineers: Project
 - Folder: 'lammps_utility': Folder Containing All 'lammps_utility' files
  	- 'thermo_reader.py': Package for extracting information from .log file and plotting to Plotly
  	-  'data_gui.py': Program for generating GUI with plotting features
- 	-  'create_dislocation.log': !!!!JOSHUA - WRITE DESCRIPTION!!!!
- 	-  'analyzed.dump': !!!!JOSHUA - WRITE DESCRIPTION!!!!
- 	-  'units_info.yaml': !!!!JOSHUA - WRITE DESCRIPTION!!!!
+	-  'units_info.yaml': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 	- Subfolder: 'dump_reader': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 		- 'box.py': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 		- 'common.py': !!!!JOSHUA - WRITE DESCRIPTION!!!!
@@ -26,10 +24,9 @@ Python For Engineers: Project
 		- 'snapshots.py': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 		- 'sources.py': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 		- 'visualize.py': !!!!JOSHUA - WRITE DESCRIPTION!!!!
- 	- Subfolder: 'exported_GUI_files': Files exported/imported when running GUI Software
-		- 'log_file.pkl': Directory of the selected .log file (string format)
-		- 'plot_parameters.pkl': List of the Selected Plot Parameters \[Runs, Thermodynamic Property]
-		- 'PlottedGraph.png': Image of Graph Being Plotted
+ 	- Subfolder: 'sample_GUI_files': Files exported/imported when running GUI Software
+		-  'analyzed.dump': !!!!JOSHUA - WRITE DESCRIPTION!!!!
+ 		-  'create_dislocation.log': !!!!JOSHUA - WRITE DESCRIPTION!!!!
 	- Subfolder: 'GUI_figures': Includes Images Displayed in GUI
 		- 'background.png': GUI Background Image
 		- 'Happy Holidays.png': Initial Image Displayed on GUI Main Screen
@@ -41,6 +38,6 @@ Python For Engineers: Project
 
 
 ## Creators
-Joshua Kempfurt, Alan Smith, MattNguyen
+Joshua Kempfurt, Alan Smith, Matt Nguyen
 
 
