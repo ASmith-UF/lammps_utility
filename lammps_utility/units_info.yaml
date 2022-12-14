@@ -1,0 +1,103 @@
+# Map LAMMPS thermo info to unit-type
+
+
+# Sources: https://docs.lammps.org/thermo_style.html
+#          https://docs.lammps.org/units.html
+
+
+# Currently, only real, metal, and si are included, as they are most common
+# Also, 3 dimensions is assumed
+
+unit_styles:
+    real:
+        number: "#"
+        length: "Å"
+        time: "fs"
+        energy: "kcal/mol"
+        pressure: "atm"
+        temperature: "K"
+        force: "kcal/mol/Å"
+        volume: "Å³"
+        density: "g/cm³"
+    metal:
+        number: "#"
+        length: "Å"
+        time: "ps"
+        energy: "eV"
+        pressure: "bar"
+        temperature: "K"
+        force: "eV/Å"
+        volume: "Å³"
+        density: "g/cm³"
+    si:
+        number: "#"
+        length: "m"
+        time: "s"
+        energy: "J"
+        pressure: "Pa"
+        temperature: "K"
+        force: "N"
+        volume: "m³"
+        density: "kg/m³"
+
+prop_types:
+    step: number
+    elapsed: number
+    elaplong: number
+    dt: time
+    time: time
+    atoms: number
+    temp: temperature
+    press: pressure
+    pe: energy
+    ke: energy
+    etotal: energy
+    evdwl: energy
+    ecoul: energy
+    epair: energy
+    ebond: energy
+    eangle: energy
+    edihed: energy
+    eimp: energy
+    emol: energy
+    elong: energy
+    etail: energy
+    enthalpy: energy
+    ecouple: energy
+    econserve: energy
+    vol: volume
+    density: density
+    lx: length
+    ly: length
+    lz: length
+    xlo: length
+    xhi: length
+    ylo: length
+    yhi: length
+    zlo: length
+    xy: length
+    xz: length
+    yz: length
+    xlat: length
+    ylat: length
+    zlat: length
+    bonds: number
+    angles: number
+    dihedrals: number
+    impropers: number
+    pxx: pressure
+    pyy: pressure
+    pzz: pressure
+    pxy: pressure
+    pxz: pressure
+    pyz: pressure
+    fmax: force
+    fnorm: force
+    nbuild: number
+    ndanger: number
+    cella: length
+    cellb: length
+    cellc: length
+    cellalpha: angle
+    cellbeta: angle
+    cellgamma: angle
