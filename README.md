@@ -18,7 +18,7 @@ This package automates common data analysis tasks for the molecular dynamics sof
 - 'example.log': Example log file to test notebook functionality on
 - 'example.dump': Example dump file to test notebook functionality on
 - 'example.ipynb': Example notebook
-- 'environment.yml': Environment containing associated packages
+- 'environment.yml': Environment containing associated packages (Windows-only)
 - 'lammps_utility': lammps_utility python package
  	- 'thermo_reader.py': Package for extracting information from .log file and plotting to Plotly
  	- 'data_gui.py': Program for generating GUI with plotting features
@@ -167,6 +167,8 @@ To open the GUI, call:
 ```python
 lammps_utility.data_gui.launch()
 ```
+
+Alternatively, `data_gui.py` can be run directly through a command-line or IDE.
 
 An interactive display will be present, allowing users to select two options:
 1) **Thermo. Plot**: plot thermodynamic properties from an associated **.log** file
