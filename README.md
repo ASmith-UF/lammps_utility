@@ -171,7 +171,7 @@ lammps_utility.data_gui.launch()
 An interactive display will be present, allowing users to select two options:
 1) **Thermo. Plot**: plot thermodynamic properties from an associated **.log** file
 
-2)**Dump Plot** plotting per-atom properties from `Snapshot`objects from an associated **.dump** file
+2) **Dump Plot** plotting per-atom properties from `Snapshot`objects from an associated **.dump** file
 
 
 ## Creators
