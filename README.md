@@ -153,6 +153,26 @@ thermo_reader.plot_log_data(dataframes, index = 1, y = "Press", x = None, write_
 where `index` is the key of the run. This will create an interactive `plotly` graph in your browser, with the units auto-populated if they are available (see discussion above).
 
 
+
+## data_gui
+
+`data_gui` provides a straightforward interface for plotting properties with respect to timesteps, given either **.log** or **.dump** files. It is noted, upon plotting specified parameters, an interactive `plotly` graph will be displayed on a local web browser as well as the graphical interface.
+
+```python
+import lammps_utility.data_gui
+```
+
+To open the GUI, call:
+
+```python
+lammps_utility.data_gui.launch()
+```
+
+An interactive display will be present, allowing users to select two options:
+1) **Thermo. Plot**: plot thermodynamic properties from an associated **.log** file
+2)**Dump Plot** plotting per-atom properties from `Snapshot`objects from an associated **.dump** file
+
+
 ## Creators
 Joshua Kempfert, Alan Smith, Matthew Nguyen
 
